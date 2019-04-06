@@ -3,10 +3,10 @@
 //Create menu Link
 function ffl_options_menu_link(){
     add_options_page( 
-        'Facebook Footer Link Options', //title / page title
-        'Facebook Footer Link', //title of menu link
+        'Yachtworld Listing', //title / page title
+        'Yachtworld Listing', //title of menu link
         'manage_options', // compatibility who will use, manage option, be sure that it is properly speeld or it will not show
-        'ffl-options', // menu slug in url
+        'yw-options', // menu slug in url
         'ffl_options_content' // display content function
     );
 }
